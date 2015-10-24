@@ -1,0 +1,10 @@
+﻿<Window x:Class="FSX.Prism.Bootstrapper.Shell"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:prism="http://prismlibrary.com/"
+        Title="Prism Bootstrap Window" Height="400" Width="600" 
+        WindowStartupLocation="CenterScreen" WindowState="Maximized">
+    <Grid>
+        <ContentControl prism:RegionManager.RegionName="MainRegion" />
+    </Grid>
+</Window>

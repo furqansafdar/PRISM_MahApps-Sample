@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{7F24805D-505F-4EFA-85AD-0B7289A6949A}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{B3FE9588-2B18-4141-A659-D4078E9B6029}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSX.Prism.Bootstrapper", "FSX.Prism.Bootstrapper\FSX.Prism.Bootstrapper.csproj", "{0C7873D7-C95D-4E43-8E55-41355ACFF5FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismMahAppsModule", "PrismMahAppsModule\PrismMahAppsModule.csproj", "{FCE21029-4A42-4F87-8575-42C628265B09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C7873D7-C95D-4E43-8E55-41355ACFF5FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C7873D7-C95D-4E43-8E55-41355ACFF5FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C7873D7-C95D-4E43-8E55-41355ACFF5FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C7873D7-C95D-4E43-8E55-41355ACFF5FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCE21029-4A42-4F87-8575-42C628265B09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCE21029-4A42-4F87-8575-42C628265B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCE21029-4A42-4F87-8575-42C628265B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCE21029-4A42-4F87-8575-42C628265B09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FCE21029-4A42-4F87-8575-42C628265B09} = {B3FE9588-2B18-4141-A659-D4078E9B6029}
+	EndGlobalSection
+EndGlobal

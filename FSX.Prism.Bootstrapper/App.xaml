@@ -1,0 +1,14 @@
+﻿<Application x:Class="FSX.Prism.Bootstrapper.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>                           
+                <!--<ResourceDictionary Source="/Elysium;component/Themes/Generic.xaml"/>-->
+                <!--<ResourceDictionary Source="/ReuxablesLegacy;component/mercury.xaml" />-->
+                <ResourceDictionary Source="Resources/Theme1.xaml" />
+                <!--<ResourceDictionary Source="pack://application:,,,/FSX.InRule;component/Templates/Metro/Light/Metro.MSControls.Toolkit.Implicit.xaml" />-->
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

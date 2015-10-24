@@ -1,0 +1,29 @@
+﻿<mahApps:MetroWindow x:Class="FSX.Prism.Bootstrapper.ShellMetro"
+                     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"                      
+                     xmlns:mahApps="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+                     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                     xmlns:prism="http://prismlibrary.com/"
+                     BorderThickness="1"
+                     SaveWindowPosition="True"
+                     WindowStartupLocation="CenterScreen"
+                     BorderBrush="{DynamicResource AccentColorBrush}"
+                     Title="Shell View"
+                     Width="800" Height="600"
+                     mc:Ignorable="d">
+    <mahApps:MetroWindow.Flyouts>
+        <mahApps:FlyoutsControl prism:RegionManager.RegionName="FlyoutRegion">
+            <mahApps:FlyoutsControl.ItemContainerStyle>
+                <Style TargetType="{x:Type mahApps:Flyout}">
+                    <Setter Property="Header" Value="{Binding Header}" />
+                    <Setter Property="IsOpen" Value="{Binding IsOpen}" />
+                    <Setter Property="Position" Value="{Binding Position}" />
+                </Style>
+            </mahApps:FlyoutsControl.ItemContainerStyle>
+        </mahApps:FlyoutsControl>
+    </mahApps:MetroWindow.Flyouts>
+    <Grid>
+        <ContentControl prism:RegionManager.RegionName="MainRegion" />
+    </Grid>
+</mahApps:MetroWindow>
